@@ -1,0 +1,80 @@
+RUBRIC
+
+A:PERSONAL INFORMATION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Personal information in the last item of the “studentData Table” is not provided.	Personal information in the last item of the “studentData Table” is incomplete.	Personal information in the last item of the “studentData Table” is complete.
+B:C++ PROJECT
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A C++ project in the IDE is not provided.	The C++ project is incorrectly created in the IDE or incorrectly uses the given files.	The C++ project is correctly created in the IDE and correctly uses the given files.
+C:ENUMERATED DATA TYPE
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The enumerated data type is not provided.	The enumerated data type is incorrectly defined.	The enumerated data type is correctly defined.
+D1:CLASS STUDENT
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The class Student is not provided.	The class Student is incorrectly created or incorrectly uses 1 or more of the given variables.	The class Student is correctly created by correctly including each of the given variables.
+D2A:ACCESSOR
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+An accessor function in the Student class for each instance variable from part D1 is not provided.	The accessor function in the Student class for each instance variable from part D1 is not functional or is incomplete.	The accessor function in the Student class for each instance variable from part D1 is functional and is complete.
+D2B:MUTATOR
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A mutator function in the Student class for each instance variable from part D1 is not provided.	The mutator function in the Student class for each instance variable from part D1 is not functional or is incomplete.	The mutator function in the Student class for each instance variable from part D1 is functional or is complete.
+D2C:ACCESSOR AND MUTATOR USAGE
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+External access and changes to instance variables of the Student class are done using neither accessor nor mutator functions.	Some external access or changes to instance variables of the Student class are not done using accessor or mutator functions.	External access and changes to all instance variables of the Student class are done using accessor and mutator functions.
+D2D:CONSTRUCTOR
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A constructor in the Student class is not provided or does not use any of the input parameters from the data table.	The constructor function in the Student class inaccurately uses 1 or more of the input parameters from the data table.	The constructor function in the Student class accurately uses all of the input parameters from the data table.
+D2E:PRINTING SPECIFIC DATA
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A print() function in the Student class is not provided.	The print() function in the Student class inaccurately prints specific student data.	The print() function in the Student class accurately prints specific student data.
+E1:ARRAY
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+An array is not provided.	The array of pointers created to hold the data provided in the “studentData Table” is incomplete or is incorrect.	The array of pointers created to hold the data provided in the “studentData Table” is complete and is correct.
+E2:STUDENT OBJECT
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A student object for each student in the data table is not provided.	The student object for each student in the classRosterArray is incorrectly populated.	The student object for each student in the classRosterArray is correctly populated.
+E2A:PARSED DATA
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The data is not parsed.	The data is parsed incorrectly.	The data is parsed correctly.
+E2B:ADDING STUDENT OBJECTS TO ARRAY
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Each student object is not added to the classRosterArray.	1 or more student objects are incorrectly added to the classRosterArray.	Each student object is correctly added to the classRosterArray.
+E3A:ADD FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The public void add(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeprogram) function is not defined.	The public void add(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3, DegreeProgram degreeprogram) function is incorrectly defined to set the instance variables from part D1 and update the roster.	The public void add(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse1, int daysInCourse2, int daysInCourse3,DegreeProgram degreeprogram) function is correctly defined to set the instance variables from part D1 and update the roster.
+E3B:REMOVE FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The public void remove(string studentID) that removes students from the roster by student ID is not defined.	The public void remove(string studentID) that removes students from the roster by student ID is incorrectly defined.	The public void remove(string studentID) that removes students from the roster by student ID is correctly defined.
+E3C:PRINT ALL FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The public void printAll() is not defined.	The public void printAll() prints a complete tab-separated list of student data. Or the printAll() incorrectly loops through 1 or more of the students in the student list or incorrectly calls the print() function for 1 or more students.	The public void printAll() prints a complete tab-separated list of student data. The printAll() correctly loops through all of the students in the student list and correctly calls the print() function for each student.
+E3D:PRINT AVERAGE FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A public void printAverageDaysInCourse(string studentID) that prints a student’s average number of days in the 3 courses is not defined. Identification of the student by the student-ID parameter is not provided.	A public void printAverageDaysInCourse(string studentID) incorrectly prints a student’s average number of days in the 3 courses by student ID. The student is not correctly identified by the student-ID parameter.	A public void printAverageDaysInCourse(string studentID) correctly prints a student’s average number of days in the 3 courses by student ID. The student is correctly identified by the student-ID parameter.
+E3E:PRINT INVALID EMAILS FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A public void printInvalidEmails() is not defined.	A public void printInvalidEmails() incorrectly identifies student email addresses as valid.	A public void printInvalidEmails() correctly verifies student email addresses and displays all invalid email addresses to the user.
+E3F:PRINT DEGREE PROGRAM FUNCTION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+A public void printByDegreeProgram(DegreeProgram degreeProgram) is not provided.	A public void printByDegreeProgram (DegreeProgram degreeProgram) incorrectly prints out students for a degree program specified by an enumerated type.	A public void printByDegreeProgram (DegreeProgram degreeProgram) correctly prints out student information for a degree program specified by an enumerated type.
+F1:SCREEN PRINT OUT
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+The course title, programming language used, WGU student ID, and student name are not all provided.	The course title, programming language used, WGU student ID, or student name is incorrectly printed at the top.	The course title, programming language used, WGU student ID, and student name are all correctly printed at the top.
+F2:ROSTER CLASS INSTANCE
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+An instance of the Roster class called classRoster is not provided.	The instance of the Roster class called classRoster is incorrectly created.	The instance of the Roster class called classRoster is correctly created.
+F3:ADD STUDENTS
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Students are not added to classRoster .	1 or more students are missing from classRoster .	All students are added to classRoster .
+F4:PSEUDO CODE CONVERSION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Evidence of converting the pseudo code to complete the rest of the main() function is not provided.	Some of the pseudo code is incorrectly converted to complete the rest of the main() function or is out of order.	All pseudo code is correctly converted to complete the rest of the main() function and is in order.
+F5:DESTRUCTOR
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Evidence of a destructor to release the Roster memory is not provided.	Evidence of a destructor to release the Roster memory is provided, but the destructor was incorrectly implemented.	The Roster memory is released by implementing the destructor.
+G:PROFESSIONAL COMMUNICATION
+NOT EVIDENT	APPROACHING COMPETENCE	COMPETENT
+Content is unstructured, is disjointed, or contains pervasive errors in mechanics, usage, or grammar. Vocabulary or tone is unprofessional or distracts from the topic.	Content is poorly organized, is difficult to follow, or contains errors in mechanics, usage, or grammar that cause confusion. Terminology is misused or ineffective.	Content reflects attention to detail, is organized, and focuses on the main ideas as prescribed in the task or chosen by the candidate. Terminology is pertinent, is used correctly, and effectively conveys the intended meaning. Mechanics, usage, and grammar promote accurate interpretation and understanding.
+
+From <https://tasks.wgu.edu/student/001405020/course/20700006/task/2468/overview> 
+
