@@ -1,0 +1,17 @@
+Confused which on roster.cpp goes onto header
+Not sure if I succeeded in creating student objects that then get stored in the array
+Didn't parse data? How to?
+Didn't meet E. part of prompt
+Having trouble with public and parenthesis on cpp
+	Is it supposed to be in header because of public void request and error
+		class BaseClass {
+		  public:
+		  BaseClass(const char* aHow = NULL) {
+		  std::strcpy(ivHow,aHow);
+		  }...
+		
+		From <https://www.bing.com/search?q=c%2b%2b+expected+an+expression+public&FORM=R5FD1> 
+		
+Didn't set pointers right?
+Can I use vectors and array without disregarding brief?
+Do I need empty constructors and for loop on student.cpp?
