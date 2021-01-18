@@ -41,13 +41,13 @@ int main()
         }
 
         if (resultVctr[8] == "SECURITY") {
-            degreeProgram = DegreeProgram::SECURITY;
+            degreeProgram = SECURITY;
         }
         if (resultVctr[8] == "NETWORK") {
-            degreeProgram = DegreeProgram::NETWORK;
+            degreeProgram = NETWORK;
         }
         if (resultVctr[8] == "SOFTWARE") {
-            degreeProgram = DegreeProgram::SOFTWARE;
+            degreeProgram = SOFTWARE;
         }
         
         classRoster.add(resultVctr[0], resultVctr[1], resultVctr[2], resultVctr[3], stoi(resultVctr[4]), stoi(resultVctr[5]),

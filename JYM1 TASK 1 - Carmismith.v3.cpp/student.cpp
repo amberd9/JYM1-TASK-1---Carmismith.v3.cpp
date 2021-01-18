@@ -108,7 +108,19 @@ void student::print() {
 	cout << "\tDays to Complete 3 Courses: " << daysInCourse[0] << ", " << daysInCourse[1] << ", " << daysInCourse[2];
 	//incorrect use of &? do i need &? &daysInCourse[0] 
 	//daysInCourse[0] or day[0]
-	cout << "\tDegree Program: " << this->GetDegreeProgram() << endl;
+	cout << "\tDegree Program: ";
+		switch (this->GetDegreeProgram()) {
+		case NETWORK:
+			cout << "NETWORK";
+			break;
+		case SECURITY: 
+			cout << "SECURITY";
+			break;
+		case SOFTWARE: 
+			cout << "SOFTWARE";
+			break;
+		}
+	cout << endl;
 	////incorrect use of &? do i need &?
 }
 //adding this->

@@ -41,8 +41,7 @@ void roster::add(string studentId, string firstName, string lastName, string ema
 //for a degree program specified by an enumerated type.
     void roster::printByDegreeProgram(DegreeProgram degreeProgram){
        for (int i = 0; i < 5; i++) {
-         if (classRosterArray[i] != nullptr && classRosterArray[i]->GetDegreeProgram() == SOFTWARE) {
-        //SOFTWARE?
+         if (classRosterArray[i] != nullptr && classRosterArray[i]->GetDegreeProgram() == degreeProgram) {
         classRosterArray[i]->print();
     }
 }
